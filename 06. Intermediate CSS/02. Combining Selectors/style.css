@@ -7,3 +7,7 @@ h1, h2 {
 .box > p {
     color: firebrick;
 }
+
+div li {
+    color: blue;
+}

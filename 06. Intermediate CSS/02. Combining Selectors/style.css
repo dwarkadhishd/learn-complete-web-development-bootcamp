@@ -11,3 +11,7 @@ h1, h2 {
 div li {
     color: blue;
 }
+
+li.done {
+    color: seagreen;
+}

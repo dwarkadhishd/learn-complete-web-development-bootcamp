@@ -1,0 +1,25 @@
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        font-weight: 900;
+    }
+    
+    .flag {
+    background-color: #ff9d00;
+    height: 200px;
+    width: 250px;
+
+    position: static;
+  }
+    .triangle-one {
+        width: 0;
+        height: 0;
+        border-top: 100px solid #ff9d00;
+        border-left: 50px solid #ff9d00;
+        border-right: 150px solid transparent;
+        border-bottom: 100px solid #ff9d00;
+
+        position: absolute;
+        left: 250px;
+    }
+

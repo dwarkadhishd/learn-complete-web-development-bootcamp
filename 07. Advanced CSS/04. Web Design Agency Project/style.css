@@ -8,6 +8,8 @@ body {
 }
 .main {
   flex: 1;
+
+  display: inline-block;
 }
 
 h1 {
@@ -21,4 +23,13 @@ footer {
 
 .creative {
   color: midnightblue;
+}
+
+.tile-image {
+  float: left;
+}
+
+.right-card {
+  display: inline-block;
+  
 }

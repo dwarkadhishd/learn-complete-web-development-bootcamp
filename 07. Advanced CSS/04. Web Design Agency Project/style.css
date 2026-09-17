@@ -19,27 +19,29 @@ footer {
   color: midnightblue;
 }
 
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width:45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .creative {
   color: midnightblue;
 }
 
-.tile-image {
-  float: left;
-  height: 200px;
-  margin: 50px;
-}
-
-.right{
-  float: right;
-  width: 45%;
-}
-
-.left{
-  float: left;
-  width: 45%;
-}
-
-@media (max-width: 650px) {
+@media (max-width: 680px) {
   .logo {
     width: 100px;
   }
@@ -50,17 +52,16 @@ footer {
   }
 
   .card {
-    display: block;
     width: 100%;
+    display:block;
     margin-bottom: 30px;
     text-align: justify;
   }
 
   .card img {
-    display: inline;
-    width: 100%;
     margin-bottom: 10px;
+    width: 100%;
+    display: inline;
     object-fit: cover;
   }
-
 }
